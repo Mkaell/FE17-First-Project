@@ -1,11 +1,15 @@
+@import url("../css/awesome.css");
+@import url("../css/title.css");
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
-    margin: auto;
+    margin: 0 auto;
 }

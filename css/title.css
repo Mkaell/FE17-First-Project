@@ -1,0 +1,27 @@
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 64px;
+    margin: 25px auto 0;
+    background: #D98943;
+}
+
+.decription {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
