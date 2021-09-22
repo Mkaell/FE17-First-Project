@@ -10,7 +10,7 @@
     margin: 63px -15px 0;
 }
 
-.pricing__card {
+.pricing__list {
     width: 340px;
     margin: 0 15px;
 }
@@ -24,6 +24,11 @@
     margin-bottom: 1px;
     color: #86878B;
     background: #ffffff;
+}
+
+.pricing__item:active {
+    font-weight: 800;
+    background: #D98943;
 }
 
 .pricing__item:last-child {
