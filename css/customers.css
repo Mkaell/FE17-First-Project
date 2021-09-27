@@ -5,6 +5,7 @@
 .customers__wrapper {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 67px -15px 0;
 }
 
@@ -32,7 +33,7 @@
 .customers__feedback::after {
     content: '';
     position: absolute;
-    bottom: -12px;
+    top: 100%;
     left: 39px;
     width: 0;
     height: 0;
@@ -43,10 +44,14 @@
 
 .customers__item {
     display: flex;
+    justify-content: center;
 }
 
-.customers__photo {
-    padding: 22px 0 0 45px;
+.customers__subitem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    width: 212px;
 }
 
 .customers__img {
@@ -57,8 +62,13 @@
 }
 
 .customers__description {
-    padding: 30px 0 0 45px;
+    padding-top: 8px;
     text-align: end;
+}
+
+.customers__description-item {
+    display: flex;
+    justify-content: space-between;
 }
 
 .customers__name {
