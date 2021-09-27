@@ -5,7 +5,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
+}
+
+.axure .container {
+    position: relative;
+    z-index: 2;
 }
 
 .axure::after {
@@ -16,7 +20,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
     background: rgba(0, 0, 0, 0.55);
 }
 
@@ -27,7 +30,6 @@
     width: 135px;
     border: 1px solid #FFFFFF;
     cursor: pointer;
-    z-index: 3;
 }
 
 .axure__link {
