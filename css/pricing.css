@@ -10,6 +10,10 @@
     margin: 63px -15px 0;
 }
 
+.pricing__card {
+    transition: all 0.2s;
+}
+
 .pricing__card:hover {
     margin: -16px 0 0 0;
 }
@@ -34,6 +38,7 @@
     font-weight: 700;
     background: #D98943;
     color: #ffffff;
+    transition: all 0.2s;
 }
 
 .pricing__item:last-child {
