@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 @import url('../css/awesome.css');
 @import url('../css/pricing.css');
 @import url('../css/title.css');
 @import url('../css/customers.css');
 @import url('../css/axure.css');
-@import url('/css/header.css');
+@import url('../css/header.css');
+@import url('../css/social.css');
 
 * {
     box-sizing: border-box;
