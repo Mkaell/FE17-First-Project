@@ -61,6 +61,6 @@
     opacity: 1;
 }
 
-.header__link:hover:after {
+.header__link:hover::after {
     width: 100%;
 }
