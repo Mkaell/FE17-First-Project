@@ -42,3 +42,42 @@
     color: #86878B;
     opacity: 0.500;
 }
+
+.fab {
+    transition: all 0.3s ease;
+}
+
+.fa-facebook-f:hover {
+    color: #4267B2;
+    transform: scale(1.5);
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    transform: scale(1.5);
+}
+
+.fa-google-plus-g:hover {
+    color: #DB4437;
+    transform: scale(1.5);
+}
+
+.fa-pinterest:hover {
+    color: #E60023;
+    transform: scale(1.5);
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+    transform: scale(1.5);
+}
+
+.fa-telegram-plane:hover {
+    color: #0088CC;
+    transform: scale(1.5);
+}
+
+.fa-yahoo:hover {
+    color: #400090;
+    transform: scale(1.5);
+}
