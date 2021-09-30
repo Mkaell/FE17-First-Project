@@ -28,6 +28,7 @@
     border-radius: 7px;
     background: #E2E2E2;
     color: #86878B;
+    transition: 0.5s ease;
 }
 
 .customers__feedback::after {
@@ -40,6 +41,10 @@
     border-left: 17px solid transparent;
     border-right: 17px solid transparent;
     border-top: 17px solid #E2E2E2;
+}
+
+.customers__feedback:hover {
+    transform: translate(-10px, -10px);
 }
 
 .customers__item {
