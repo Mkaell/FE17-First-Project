@@ -1,0 +1,21 @@
+.download {
+    position: relative;
+    width: 135px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.download:active {
+    border: 1px solid #EC7979;
+    background: #EC7979;
+}
+
+.link {
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

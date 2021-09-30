@@ -24,20 +24,6 @@
 }
 
 .axure__download {
-    position: relative;
     margin: 68px auto 0;
     padding: 11px 0;
-    width: 135px;
-    border: 1px solid #FFFFFF;
-    cursor: pointer;
-}
-
-.axure__link {
-    display: block;
-    margin: 0 auto;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
 }

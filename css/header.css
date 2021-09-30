@@ -1,5 +1,6 @@
 .header {
     position: fixed;
+    padding: 20px 0;
     width: 100%;
     background: #000000;
     z-index: 100;
@@ -9,25 +10,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    margin: 0 -15px;
 }
 
-.header__logo {
+.header__title {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin: 0 15px;
 }
 
-.header__logo span {
+.header__title::after {
+    content: 'it';
     color: #EC7979;
+}
+
+.header__navigation {
+    margin: 0 15px;
 }
 
 .header__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 

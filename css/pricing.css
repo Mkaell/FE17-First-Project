@@ -15,7 +15,7 @@
 }
 
 .pricing__card:hover {
-    margin: -16px 0 0 0;
+    transform: translateY(-16px);
 
 }
 
@@ -37,7 +37,7 @@
 
 .pricing__item:active {
     font-weight: 700;
-    background: #D98943;
+    background: #EC7979;
     color: #ffffff;
     transition: all 0.2s;
 }
@@ -57,7 +57,7 @@
 
 .pricing__item-name:active {
     font-weight: 700;
-    background: #D98943;
+    background: #EC7979;
 }
 
 .pricing__item-price {
@@ -72,7 +72,7 @@
 
 .pricing__item-price:active {
     font-weight: 700;
-    background: #D98943;
+    background: #EC7979;
 }
 
 .pricing__item-period {
@@ -86,10 +86,10 @@
 
 .pricing__item-period:active {
     font-weight: 700;
-    background: #D98943;
+    background: #EC7979;
 }
 
 .pricing__item-period_orange {
     font-weight: 700;
-    background: #D98943;
+    background: #EC7979;
 }

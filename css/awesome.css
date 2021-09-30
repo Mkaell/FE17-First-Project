@@ -20,15 +20,21 @@
 .awesome__img {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 70px;
     height: 70px;
-    border: 1px solid #D98943;
+    border: 1px solid #EC7979;
     border-radius: 50%;
     transition: 0.5s ease;
 }
 
 .awesome__img:hover {
     transform: rotate(360deg);
+}
+
+.awesome__img-svg {
+    font-size: 30px;
+    color: #EC7979;
 }
 
 .awesome__title {
