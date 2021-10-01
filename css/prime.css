@@ -1,0 +1,161 @@
+.prime {
+    position: relative;
+    padding: 110px 0 101px 0;
+    min-height: 100vh;
+    background-image: url('../img/prime/background-1\ 1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prime::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.prime .container {
+    position: relative;
+    z-index: 2;
+}
+
+.prime__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 -15px;
+
+}
+
+.prime__block-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 544px;
+    margin: 0 15px;
+}
+
+.prime__logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.prime__logo::after {
+    content: 'it';
+    color: #EC7979;
+}
+
+.prime__title {
+    margin-top: 32px;
+    text-align: start;
+}
+
+.prime__title::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 64px;
+    margin: 45px 0 0;
+    background: #FFFFFF;
+}
+
+.prime__description {
+    margin-top: 39px;
+    font-family: 'Raleway', sans-serif;
+    width: 282px;
+}
+
+.prime__download {
+    margin-top: 39px;
+}
+
+
+.prime__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 370px;
+    margin: 0 15px;
+}
+
+.prime__form-content {
+    padding: 10px 59px 60px;
+}
+
+.prime__form-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+}
+
+.prime__form-title span {
+    color: #EC7979;
+}
+
+.prime__form-item {
+    margin-top: 19px;
+}
+
+.prime__form-item:nth-child(2) {
+    margin-top: 60px;
+}
+
+
+.prime__form-item label {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+input[name="user_name"],
+input[name="user_email"],
+input[name="user_password"] {
+    font-size: 16px;
+    outline: 0;
+    padding: 8px 18px;
+    height: 19px;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e4;
+    color: #8a97a0;
+}
+
+input[name="user_name"]:focus,
+input[name="user_email"]:focus,
+input[name="user_password"]:focus {
+    border-bottom: 1px solid #EC7979;
+}
+
+.prime__button {
+    width: 100%;
+    padding: 21px 0;
+    background: #EC7979;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 0px 7px 7px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.prime__button:active {
+    background: #333333;
+    border: 1px solid #333333;
+}
