@@ -9,6 +9,7 @@
 @import url('../css/social.css');
 @import url('../css/footer.css');
 @import url('../css/links.css');
+@import url('../css/prime.css');
 
 * {
     box-sizing: border-box;
@@ -17,6 +18,10 @@
     font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .container {
