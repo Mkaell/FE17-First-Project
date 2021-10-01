@@ -10,6 +10,9 @@
 @import url('../css/footer.css');
 @import url('../css/links.css');
 @import url('../css/prime.css');
+@import url('../css/label.css');
+@import url('../css/button.css');
+@import url('../css/contact.css');
 
 * {
     box-sizing: border-box;

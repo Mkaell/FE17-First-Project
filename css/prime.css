@@ -113,27 +113,18 @@
     margin-top: 60px;
 }
 
-
-.prime__form-item label {
-    display: block;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BDBDBD;
-}
-
 input[name="user_name"],
 input[name="user_email"],
 input[name="user_password"] {
-    font-size: 16px;
+    font-size: 14px;
     outline: 0;
-    padding: 8px 18px;
+    padding: 0 18px;
     height: 19px;
     width: 100%;
     border: none;
     background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e4;
-    color: #8a97a0;
+    border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
 }
 
 input[name="user_name"]:focus,
@@ -142,20 +133,9 @@ input[name="user_password"]:focus {
     border-bottom: 1px solid #EC7979;
 }
 
-.prime__button {
+.button.prime__button {
     width: 100%;
+    margin: 0;
     padding: 21px 0;
-    background: #EC7979;
-    cursor: pointer;
-    border: none;
     border-radius: 0px 0px 7px 7px;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.prime__button:active {
-    background: #333333;
-    border: 1px solid #333333;
 }

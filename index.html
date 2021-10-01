@@ -29,7 +29,7 @@
                         <a href="#customers" class="header__link">Reviews</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Contact</a>
+                        <a href="#contatc" class="header__link">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -61,19 +61,19 @@
                             Try Your <span>FREE</span> Trial Today
                         </h3>
                         <div class="prime__form-item">
-                            <label for="name">Name</label>
+                            <label class="label" for="name">Name</label>
                             <input type="text" id="name" name="user_name">
                         </div>
                         <div class="prime__form-item">
-                            <label for="mail">Email</label>
+                            <label class="label" for="mail">Email</label>
                             <input type="email" id="mail" name="user_email">
                         </div>
                         <div class="prime__form-item">
-                            <label for="password">Password</label>
+                            <label class="label" for="password">Password</label>
                             <input type="password" id="password" name="user_password">
                         </div>
                     </div>
-                    <button class="prime__button">Get Started</button>
+                    <button class="button prime__button">Get Started</button>
                 </form>
             </div>
         </div>
@@ -118,7 +118,6 @@
             </div>
         </div>
     </section>
-    
     <section class="awesome" id="awesome">
         <div class="container">
             <h2 class="title">
@@ -184,17 +183,19 @@
             </h4>
             <div class="pricing__wrapper">
                 <div class="pricing__card">
-                    <ul class="pricing__list">
-                        <li class="pricing__item pricing__item-name">Basic</li>
-                        <li class="pricing__item pricing__item-price">$10</li>
-                        <li class="pricing__item pricing__item-period">Free for life</li>
-                        <li class="pricing__item">1 gb of space</li>
-                        <li class="pricing__item">1 gb of space</li>
-                        <li class="pricing__item">1 gb of space</li>
-                        <li class="pricing__item">1 gb of space</li>
-                        <li class="pricing__item">1 gb of space</li>
-                        <li class="pricing__item">1 gb of space</li>
-                    </ul>
+                    <div class="pricing__test">
+                        <ul class="pricing__list">
+                            <li class="pricing__item pricing__item-name">Basic</li>
+                            <li class="pricing__item pricing__item-price">$10</li>
+                            <li class="pricing__item pricing__item-period">Free for life</li>
+                            <li class="pricing__item">1 gb of space</li>
+                            <li class="pricing__item">1 gb of space</li>
+                            <li class="pricing__item">1 gb of space</li>
+                            <li class="pricing__item">1 gb of space</li>
+                            <li class="pricing__item">1 gb of space</li>
+                            <li class="pricing__item">1 gb of space</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="pricing__card">
                     <ul class="pricing__list">
@@ -235,7 +236,6 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
             </h4>
-        
             <div class="customers__wrapper">
                 <div class="customers__block">
                     <div class="customers__feedback">
@@ -331,6 +331,41 @@
             <div class="download axure__download">
                 <a href="#" class="link">Download</a>
             </div>
+        </div>
+    </section>
+    <section class="contact" id="contatc">
+        <div class="container">
+            <h2 class="title">
+                contact us
+            </h2>
+            <h4 class="decription">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </h4>
+            <form action="#" class="contact__form">
+                <div class="contact__form-content">
+                    <div class="contact__form-block">
+                        <div class="contact__form-item">
+                            <label class="label" for="name_contact">Name</label>
+                            <input type="text" id="name_contact" name="user_name">
+                        </div>
+                        <div class="contact__form-item">
+                            <label class="label" for="mail_contact">Email</label>
+                            <input type="email" id="mail_contact" name="user_email">
+                        </div>
+                        <div class="contact__form-item">
+                            <label class="label" for="password_conatct">Password</label>
+                            <input type="password" id="password_conatct" name="user_password">
+                        </div>
+                    </div>
+                    <div class="contact__form-block">
+                        <label class="label" for="textarea">Message</label>
+                        <textarea name="textarea" id="textarea" cols="" rows=""></textarea>
+                    </div>
+                </div>
+                <button class="button">Send Message</button>
+            </form>
         </div>
     </section>
     <footer class="footer">
