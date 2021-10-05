@@ -1,18 +1,25 @@
 .button {
     display: block;
-    margin: 69px auto 0;
-    width: 166px;
-    padding: 11px 0;
-    background: #EC7979;
+    margin: 4.3125rem auto 0;
+    width: 10.375rem;
+    padding: .6875rem 0;
     cursor: pointer;
     border: none;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: .9375rem;
+    line-height: 1.25rem;
     text-align: center;
+    border: .0625rem solid #EC7979;
+    background: #EC7979;
     color: #FFFFFF;
+    transition: 0.2s ease;
+}
+
+.button:hover {
+    background: #e75252;
+    border: .0625rem solid #e75252;
 }
 
 .button:active {
     background: #333333;
-    border: 1px solid #333333;
+    border: .0625rem solid #333333;
 }

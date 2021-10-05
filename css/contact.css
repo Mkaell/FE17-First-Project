@@ -1,9 +1,9 @@
 .contact {
-    padding: 80px 0 44px 0;
+    padding: 5rem 0 3rem 0;
 }
 
 .contact__form {
-    margin: 95px -15px 0;
+    margin: 5.938rem -0.938rem 0;
 }
 
 .contact__form-content {
@@ -12,12 +12,12 @@
 }
 
 .contact__form-block {
-    width: 484px;
-    margin: 0 15px;
+    width: 40%;
+    margin: 0 0.938rem;
 }
 
 .contact__form-item {
-    margin-top: 31px;
+    margin-top: 1.938rem;
 }
 
 .contact__form-item:nth-child(1) {
@@ -27,45 +27,25 @@
 
 .contact__form-block textarea {
     width: 100%;
-    height: calc(100% - 18px);
+    height: calc(100% - 1.125rem);
     resize: none;
-    padding: 18px 10px 10px;
-    font-size: 18px;
+    padding: 1.125rem 0.625rem 0.625rem;
+    font-size: 1.125rem;
     outline: 0;
     border: none;
     background-color: #ffffff;
-    border-bottom: 1px solid #BDBDBD;
+    border-bottom: 0.063rem solid #BDBDBD;
     color: #BDBDBD;
 }
 
 .contact__form-block textarea:focus {
-    border-bottom: 1px solid #EC7979;
+    border-bottom: 0.063rem solid #EC7979;
 
 }
 
 input[id="name_contact"],
 input[id="mail_contact"],
 input[id="password_conatct"] {
-    font-size: 18px;
-    height: 46px;
-}
-
-
-.contact__button {
-    display: block;
-    margin: 69px auto 0;
-    width: 166px;
-    padding: 11px 0;
-    background: #EC7979;
-    cursor: pointer;
-    border: none;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.contact__button:active {
-    background: #333333;
-    border: 1px solid #333333;
+    font-size: 1.125rem;
+    height: 2.875rem;
 }
