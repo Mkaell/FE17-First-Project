@@ -1,8 +1,8 @@
 .title {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     text-align: center;
     text-transform: uppercase;
     color: #212121;
@@ -11,9 +11,9 @@
 .title::after {
     content: '';
     display: block;
-    height: 1px;
-    width: 64px;
-    margin: 25px auto 0;
+    height: .0625rem;
+    width: 4rem;
+    margin: 1.5625rem auto 0;
     background: #EC7979;
 }
 
@@ -21,8 +21,8 @@
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: .875rem;
+    line-height: 1.1875rem;
     text-align: center;
     color: #86878B;
 }
@@ -30,8 +30,8 @@
 .title_white {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -40,15 +40,15 @@
 .title_white::after {
     content: '';
     display: block;
-    height: 1px;
-    width: 64px;
-    margin: 25px auto 0;
+    height: .0625rem;
+    width: 4rem;
+    margin: 1.5625rem auto 0;
     background: #FFFFFF;
 }
 
 .decription_white {
     font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.1875rem;
     color: rgba(255, 255, 255, 0.8);
 }

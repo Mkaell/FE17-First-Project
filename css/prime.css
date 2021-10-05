@@ -1,6 +1,6 @@
 .prime {
     position: relative;
-    padding: 110px 0 101px 0;
+    padding: 6.875rem 0 6.313rem 0;
     min-height: 100vh;
     background-image: url('../img/prime/background-1\ 1.jpg');
     background-position: center;
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 -15px;
+    margin: 0 -0.938rem;
 
 }
 
@@ -36,15 +36,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 544px;
-    margin: 0 15px;
+    width: 34rem;
+    margin: 0 0.938rem;
 }
 
 .prime__logo-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 3.75rem;
+    line-height: 4.375rem;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -55,27 +55,27 @@
 }
 
 .prime__title {
-    margin-top: 32px;
+    margin-top: 2rem;
     text-align: start;
 }
 
 .prime__title::after {
     content: '';
     display: block;
-    height: 1px;
-    width: 64px;
-    margin: 45px 0 0;
+    height: 0.063rem;
+    width: 4rem;
+    margin: 2.813rem 0 0;
     background: #FFFFFF;
 }
 
 .prime__description {
-    margin-top: 39px;
+    margin-top: 2.438rem;
     font-family: 'Raleway', sans-serif;
-    width: 282px;
+    width: 17.625rem;
 }
 
 .prime__download {
-    margin-top: 39px;
+    margin-top: 2.438rem;
 }
 
 
@@ -84,19 +84,20 @@
     flex-direction: column;
     justify-content: flex-end;
     background: #FFFFFF;
-    border-radius: 8px;
-    width: 370px;
-    margin: 0 15px;
+    border-radius: 0.5rem;
+    width: 23.125rem;
+    margin: 0 0.938rem;
+    overflow: hidden;
 }
 
 .prime__form-content {
-    padding: 10px 59px 60px;
+    padding: 0.625rem 3.688rem 3.75rem;
 }
 
 .prime__form-title {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25rem;
+    line-height: 1.688rem;
     text-align: center;
     color: #333333;
 }
@@ -106,56 +107,35 @@
 }
 
 .prime__form-item {
-    margin-top: 19px;
+    margin-top: 1.188rem;
 }
 
 .prime__form-item:nth-child(2) {
-    margin-top: 60px;
-}
-
-
-.prime__form-item label {
-    display: block;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BDBDBD;
+    margin-top: 3.75rem;
 }
 
 input[name="user_name"],
 input[name="user_email"],
 input[name="user_password"] {
-    font-size: 16px;
+    font-size: 0.875rem;
     outline: 0;
-    padding: 8px 18px;
-    height: 19px;
+    padding: 0 1.125rem;
+    height: 1.188rem;
     width: 100%;
     border: none;
     background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e4;
-    color: #8a97a0;
+    border-bottom: 0.063rem solid #BDBDBD;
+    color: #BDBDBD;
 }
 
 input[name="user_name"]:focus,
 input[name="user_email"]:focus,
 input[name="user_password"]:focus {
-    border-bottom: 1px solid #EC7979;
+    border-bottom: 0.063rem solid #EC7979;
 }
 
-.prime__button {
+.button.prime__button {
     width: 100%;
-    padding: 21px 0;
-    background: #EC7979;
-    cursor: pointer;
-    border: none;
-    border-radius: 0px 0px 7px 7px;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.prime__button:active {
-    background: #333333;
-    border: 1px solid #333333;
+    margin: 0;
+    padding: 1.313rem 0;
 }
