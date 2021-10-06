@@ -204,6 +204,11 @@
         margin-top: 3.125rem;
     }
 
+    .pricing__card:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 0.313rem 0.625rem 0.125rem rgba(34, 60, 80, 0.2);
+    }
+
     .contact__form-content {
         display: flex;
         justify-content: center;
