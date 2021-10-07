@@ -365,6 +365,10 @@
         margin-top: 3rem;
     }
 
+    .feautures {
+        padding: 5rem 0 0;
+    }
+
     .feautures__wrapper {
         width: 100%;
     }
@@ -392,11 +396,11 @@
     }
 
     .awesome {
-        padding: 3.125rem 0;
+        padding: 5rem 0 3.125rem;
     }
 
     .pricing {
-        padding: 3.125rem 0;
+        padding: 5rem 0 3.125rem;
     }
 
     .pricing__list {
@@ -404,7 +408,7 @@
     }
 
     .customers {
-        padding: 3.125rem 0;
+        padding: 5rem 0 3.125rem;
     }
 
     .customers__wrapper {
@@ -424,7 +428,7 @@
     }
 
     .contact {
-        padding: 3.125rem 0;
+        padding: 5rem 0 3.125rem;
     }
 
     .footer__block {
