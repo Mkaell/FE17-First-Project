@@ -33,11 +33,17 @@
     margin: 0 0.9375rem;
 }
 
+
+
 .header__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.header__list-active {
+    left: 0;
 }
 
 .header__item {
@@ -55,7 +61,6 @@
     line-height: 1.25rem;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.7);
-
 }
 
 .header__link::after {
@@ -72,4 +77,8 @@
 
 .header__link:hover::after {
     width: 100%;
+}
+
+.hamburger {
+    display: none;
 }

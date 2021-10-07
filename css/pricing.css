@@ -19,7 +19,6 @@
 .pricing__card:hover {
     transform: translateY(-16px);
     box-shadow: 0 0.313rem 0.625rem 0.125rem rgba(34, 60, 80, 0.2);
-    border-radius: 0.5rem;
 }
 
 .pricing__list {
