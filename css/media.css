@@ -82,7 +82,7 @@
         justify-content: center;
     }
 
-    .feautures__content {
+    .feautures__content.active {
         justify-content: center;
     }
 

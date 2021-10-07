@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
+    //hamburger
     const menu = document.querySelector('.header__list'),
         menuItem = document.querySelectorAll('.header__item'),
         hamburger = document.querySelector('.hamburger');
@@ -19,5 +20,41 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     toggleMenu(hamburger);
+
+    //tabs
+
+    function tab () {
+        const tabNav = document.querySelectorAll('.feautures__tab'),
+            tabContent = document.querySelectorAll('.feautures__content');
+        let tabName;
+    
+        tabNav.forEach(item => {
+            item.addEventListener('click', selectTabNav);
+        });
+    
+        function selectTabNav() {
+            tabNav.forEach(item => {
+                item.classList.remove('active');
+            });
+            this.classList.add('active');
+            tabName = this.getAttribute('data-tab-name');
+            selectTabContent(tabName);
+        }
+    
+        function selectTabContent(tabName) {
+            tabContent.forEach(item => {
+                if (item.classList.contains(tabName)) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+    
+    }
+    
+    
+    tab();
+
 
 });
