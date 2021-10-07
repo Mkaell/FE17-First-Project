@@ -43,18 +43,7 @@
 }
 
 .header__list-active {
-    position: fixed;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: -100%;
-    width: 50%;
-    height: 100vh;
-    padding: 20px 15px;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 100;
-    transition: 0.6s all;
+    left: 0;
 }
 
 .header__item {

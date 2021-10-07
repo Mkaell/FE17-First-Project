@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const menu = document.querySelector('.menu'),
-        menuItem = document.querySelectorAll('.menu_item'),
-        hamburger = document.querySelector('.hamburger'),
-        back = document.querySelector('.back');
+    const menu = document.querySelector('.header__list'),
+        menuItem = document.querySelectorAll('.header__item'),
+        hamburger = document.querySelector('.hamburger');
+        // back = document.querySelector('.back');
 
 
     menuItem.forEach(item => {
@@ -13,12 +13,11 @@ window.addEventListener('DOMContentLoaded', () => {
     function toggleMenu(element){
         element.addEventListener('click', () => {
             hamburger.classList.toggle('hamburger_active');
-            menu.classList.toggle('menu_active');
-            back.classList.toggle('show');
+            menu.classList.toggle('header__list-active');
+            // back.classList.toggle('show');
         });
     }
 
     toggleMenu(hamburger);
-    toggleMenu(back);
 
 });
