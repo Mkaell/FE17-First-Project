@@ -71,7 +71,7 @@
     height: 0.063rem;
     width: 0;
     border-bottom: solid 0.063rem rgba(255, 255, 255, 0.7);
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     opacity: 1;
 }
 
