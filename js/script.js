@@ -11,15 +11,21 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
 
-    function toggleMenu(element){
-        element.addEventListener('click', () => {
+    function checkDisplay() {
+        if(window.getComputedStyle(hamburger, null).getPropertyValue("display") == 'block') {
             hamburger.classList.toggle('hamburger_active');
             menu.classList.toggle('header__list-active');
             document.body.classList.toggle('overflow');
             // back.classList.toggle('show');
-        });
+        }
     }
+    
+    function toggleMenu(element){
+        element.addEventListener('click', () => {
+            checkDisplay();
+        });
 
+    }
     toggleMenu(hamburger);
 
     //tabs
