@@ -43,7 +43,7 @@
     border: .0625rem solid #C6CBCD;
     justify-content: space-between;
     background-color: #fff;
-
+    transition: 0.3s ease;
 }
 
 

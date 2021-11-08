@@ -29,39 +29,32 @@ window.addEventListener('DOMContentLoaded', () => {
     toggleMenu(hamburger);
 
     //tabs
-
-    function tab () {
-        const tabNav = document.querySelectorAll('.feautures__tab'),
-            tabContent = document.querySelectorAll('.feautures__content');
-        let tabName;
+    const tabsBtn   = document.querySelectorAll(".feautures__tab");
+    const tabsItems = document.querySelectorAll(".feautures__content");
     
-        tabNav.forEach(item => {
-            item.addEventListener('click', selectTabNav);
-        });
+    tabsBtn.forEach(onTabClick);
     
-        function selectTabNav() {
-            tabNav.forEach(item => {
-                item.classList.remove('active');
-            });
-            this.classList.add('active');
-            tabName = this.getAttribute('data-tab-name');
-            selectTabContent(tabName);
-        }
+    function onTabClick(item) {
+        item.addEventListener("click", function() {
+            let currentBtn = item;
+            let tabId = currentBtn.getAttribute("data-tab");
+            let currentTab = document.querySelector(tabId);
     
-        function selectTabContent(tabName) {
-            tabContent.forEach(item => {
-                if (item.classList.contains(tabName)) {
-                    item.classList.add('active');
-                } else {
+            if( ! currentBtn.classList.contains('active') ) {
+                tabsBtn.forEach(function(item) {
                     item.classList.remove('active');
-                }
-            });
-        }
-    
+                });
+        
+                tabsItems.forEach(function(item) {
+                    item.classList.remove('active');
+                });
+        
+                currentBtn.classList.add('active');
+                currentTab.classList.add('active');
+            }
+        });
     }
     
-    
-    tab();
-
+    document.querySelector('.feautures__tab').click();
 
 });
